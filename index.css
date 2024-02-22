@@ -27,11 +27,12 @@
     width: 350px;
     height: 600px !important;
     border: none !important;
-  /* background: var(--primary-light-color) !important; */
+    transition: all 0.5s ease-in-out;
 }
 .card-imgs{
     height: 200px;
     background-color: var(--secondary-color);
+
 }
 .card-img{
     height: 100px;
@@ -39,9 +40,8 @@
 }
 .more,a,.fa-phone{
    float: right;
-    /* margin-left: 10px; */
     color: var(--primary-color) !important;
-    /* cursor: pointer; */
+    
 }
 .card-prah{
     font-size:clamp(10px,4vw,13px);
@@ -65,14 +65,16 @@
   min-height: 2.2rem !important;
   border-radius: 3px !important;
   border: solid 1px var(--primary-color);
-    transition: all 0.5s ease-in-out !important;
+    transition: all 0.05s ease-in-out !important;
 }
 .card-footer button:hover {
-    /* box-shadow: 0 0 15px var(--primary-color);
-    background:transparent !important;
-    border: solid 1px var(--primary-color); */
+    
     color: var(--text-white-color) !important;
-    /* background: var(--primary-light-color) !important; */
+
+}
+.card-div:hover{
+    transform: scale(1.02) !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 
@@ -85,7 +87,6 @@
 .card-glass{
     width: 350px;
     height: 600px !important;
-    /* border: none !important; */
     background: transparent !important;
     background: rgba(250, 225, 83, 0.603);
     box-shadow: 0 8px 32px 0 rgba(192, 184, 67, 0.918);
