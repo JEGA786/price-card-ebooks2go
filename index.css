@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-transform: capitalize; */
+   
+
+    
+}
+/* ---------------------------colors--------------------------- */
+
+:root{
+    --primary-color:#FF9900 !important;
+    --primary-light-color:#fccb83 !important;
+    --secondary-color:rgb(250, 240, 194);
+    --text-white-color:rgb(255, 255, 255);
+    --text-black-color:rgb(22, 22, 22) !important;
+}
+
+/* -------------------------cards----------------------------- */
+.price-card-page .price-card{
+    background: var(--primary-light-color) !important;
+}
+.fa-amazon{
+    font-size: 13px !important;
+}
+.card-div{
+    width: 350px;
+    height: 600px !important;
+    border: none !important;
+  /* background: var(--primary-light-color) !important; */
+}
+.card-imgs{
+    height: 200px;
+    background-color: var(--secondary-color);
+}
+.card-img{
+    height: 100px;
+    width: 150px !important;
+}
+.more,a,.fa-phone{
+   float: right;
+    /* margin-left: 10px; */
+    color: var(--primary-color) !important;
+    /* cursor: pointer; */
+}
+.card-prah{
+    font-size:clamp(10px,4vw,13px);
+    line-height: 24px;
+}
+.page-prah{
+    font-size:clamp(15px,4vw,16px);   
+}
+.card-footer{
+   display: flex;
+   justify-content: center;
+   padding: 15px !important;
+}
+.price{
+    font-size: 19px;
+}
+.card-footer button{
+    background:var(--primary-color) !important;
+    color: var(--text-white-color);
+  min-width: 9rem;
+  min-height: 2.2rem !important;
+  border-radius: 3px !important;
+  border: solid 1px var(--primary-color);
+    transition: all 0.5s ease-in-out !important;
+}
+.card-footer button:hover {
+    /* box-shadow: 0 0 15px var(--primary-color);
+    background:transparent !important;
+    border: solid 1px var(--primary-color); */
+    color: var(--text-white-color) !important;
+    /* background: var(--primary-light-color) !important; */
+}
+
+
+/* -----------------------------------------2nd design----------------------- */
+
+.price-card-glass{
+    background-image: url(/images/amazon2.gif) !important;
+    background-size:cover !important;
+}
+.card-glass{
+    width: 350px;
+    height: 600px !important;
+    /* border: none !important; */
+    background: transparent !important;
+    background: rgba(250, 225, 83, 0.603);
+    box-shadow: 0 8px 32px 0 rgba(192, 184, 67, 0.918);
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.card-imgs-glass{
+    height: 200px;
+    border-bottom:solid 0.1px rgb(202, 182, 70) ;
+    /* background-color: var(--secondary-color); */
+}
+
+.price-card-glass{
+    background-image: url(/images/amazon2.gif) !important;
+    background-size:cover !important;
+}
+
+@media screen and (max-width: 910px) {
+    .price-card-glass{
+        background-image: url(/images/amazon2.gif) !important;
+        background-size:contain !important;
+    }
+   }
